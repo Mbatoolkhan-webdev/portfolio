@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple| Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">">
+</head>
+<body>
+
+  
+  <nav class="navbar">
+    <div class="logo">
+      <h1>M.<span>batool</span>Khan</h1>
+    </div>
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="assets/image-2.jpeg" alt="Profile Image" class="profile-img">
+      <h1>Hi, I'm <span>M.</span>batool Khan</h1>
+      <p>Creating modern websites using HTML, CSS & JavaScript</p>
+      <a href="assets/M.pdf" download class="btn">Download Resume</a>
+    </div>
+  </section>
+
+
+  <section id="about" class="container">
+    <h2>About Me</h2><br>
+
+    <p>
+      Assalam-o-Alaikum! Hi, I am Maria batool 
+      This is my first portfolio project as a beginner.  
+      I am learning frontend technologies like HTML, CSS, and JavaScript.  
+      In Sha Allah, I will create big projects in the future.Small steps lead to big progress
+    </p>
+  </section>
+
+  <section id="skills" class="container bg-alt">
+    <h2>My Skills</h2>
+    <div class="skills">
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+      <div class="skill">Web Development</div>
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <img src="assets/pic.png" alt="Landing Page">
+        <h3>Landing Page</h3>
+        <p>Simple shopping landing page.</p>
+        <a href="assets/pic.png" target="_blank" class="btn">View My Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/shopping.png" alt="Online Shopping Website">
+        <h3>Online Shopping Website</h3>
+        <p>Amazing online shopping website.</p>
+        <a href="assets/shopping.png." target="_blank" class="btn">View My Project</a>
+      </div>
+      <div class="project-card">
+        <img src="assets/Cara.png" alt="Online Shopping Website">
+        <h3>Cara Mart website</h3>
+        <p>This is clean full shopping website.</p>
+        <a href="assets/Cara.png" target="_blank" class="btn">View My Project</a>
+   
+  </section>
+
+ 
+  <section id="contact" class="container bg-alt">
+    <h2>Contact Me</h2><br>
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  
+  <footer>
+    <p>M.batoolKhan 2026 Portfolio | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
